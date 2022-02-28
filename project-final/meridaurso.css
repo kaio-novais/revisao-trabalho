@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./imagens/ursofei.jpg);
+    background-size: cover;
+    background-position: 0 -4rem;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+hr{
+    margin-top: 20px;
+}
+.textualizando{
+    text-align: center;
+    
+}
+.textu{
+    text-align: right;
+    color: black;
+    margin-top: 5rem;
+    display: flex;
+    margin-right: 14rem;
+    justify-content: flex-end;
+}
+.content p{
+    background-color: antiquewhite;
+
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./imagens/rayaa.jpg);
+    background-size: auto;
+}
+
+.txt{
+    display: flex;
+    justify-content: flex-start;
+}
+.content{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+#retorno{
+    margin-left: auto;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    transition: 0.3s;
+}
+#retorno:hover{
+    color: rgb(252, 193, 116);
+}
+.btn{
+    display: grid;
+    grid-column: 1;
+    margin-top: 4rem;
+}
+.btn button{
+    margin-left: 12rem;
+    width: 250px;
+    height: 46px;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    border: solid white 1px;
+    background-color: #109191;
+    color: white;
+    transition: 0.2s;
+}
+.btn button:hover{
+    background-color: #0b6b6b;
+}
